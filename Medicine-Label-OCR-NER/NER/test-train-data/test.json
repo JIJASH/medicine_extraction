@@ -1,0 +1,402 @@
+{
+  "classes": ["COMPOSITION NAME", "COMMON NAME"],
+  "annotations": [
+    [
+      "Image 351: Rx Propranolol Tablets I.P. Inderal*20 GTIN:18904145935595 Imported&Distributed by in Nepal EXP250531 Gunjeshwari B.NO:INZ23014 Pharma Adarsh Nagar-13 S.NO:21102721711443 Birganj,Parsa Email:gpadmn@gmail.com Exim Code:3005153140148NP 20 mg 20 x2 x 15 Tablets ",
+      { "entities": [[14, 33, "COMMON NAME"]] }
+    ],
+    [
+      "Image 352: Rx 120 mg 100 Tablets ControlledRelease Tablets of DiltiazemHydrochloride DILCONTIN XL120 CONTINUS controlled release system f0 UNDIPHARMA ",
+      { "entities": [[33, 84, "COMMON NAME"]] }
+    ],
+    [
+      "Image 353: Rx 120 mg 100 Tablets ControlledRelease Tablets of DiltiazemHydrochloride DILCONTIN XL120 CONTINUS controlled release system f0 UNDIPHARMA ",
+      { "entities": [[33, 84, "COMMON NAME"]] }
+    ],
+    [
+      "Image 354: Amlodipine& Mig.Lic.No916541 .osartan Potassium Tablets IP M.R.P15TABS.Rs.187.50 MFD.JUL.23EXP.JUN.25 B.No.165286 Mylod-L omsons-uCr Ench ljlm-coated iabletcontains Amiodipine Besylate IP equivalent to Amlodipine Sing Manutactured.by: Quest Pharmaceuticals (P.)Ltd osartan Potasslum IP 50mg Chhata PiparaBaraNepal Colours:Titanium Dioxide &Sunset Yellow Lake MylodL Mylod-L Mylod-L Mylod-L Mylod-L Mylod-L H4 Mfg.Lic.No.10541 Amlodipine & osartan Potassium Tablets IP Mylod-L ",
+      { "entities": [[176, 195, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 355: Amlodipine& Mig.Lic.No916541 .osartan Potassium Tablets IP M.R.P15TABS.Rs.187.50 MFD.JUL.23EXP.JUN.25 B.No.165286 Mylod-L omsons-uCr Ench ljlm-coated iabletcontains Amiodipine Besylate IP equivalent to Amlodipine Sing Manutactured.by: Quest Pharmaceuticals (P.)Ltd osartan Potasslum IP 50mg Chhata PiparaBaraNepal Colours:Titanium Dioxide &Sunset Yellow Lake MylodL Mylod-L Mylod-L Mylod-L Mylod-L Mylod-L H4 Mfg.Lic.No.10541 Amlodipine & osartan Potassium Tablets IP Mylod-L ",
+      { "entities": [[176, 195, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 356: 20x 2x 15 Tablets R ENALAPRIL MALEATE TABLETS IP 5mg ENVAS ENUAS Enalapril Maleate 5mg CADILA PHARMACEUTICALS LIMITED ",
+      { "entities": [[31, 56, "COMMON NAME"]] }
+    ],
+    [
+      "Image 357: 20x 2x 15 Tablets R ENALAPRIL MALEATE TABLETS IP 5mg ENVAS ENUAS Enalapril Maleate 5mg CADILA PHARMACEUTICALS LIMITED ",
+      { "entities": [[31, 56, "COMMON NAME"]] }
+    ],
+    [
+      "Image 358: 10x 15 Tablets Rosuvastatin Tablets I.P R Novastat20 LUPIN ",
+      { "entities": [[26, 46, "COMMON NAME"]] }
+    ],
+    [
+      "Image 359: 10x 15 Tablets Rosuvastatin Tablets I.P R Novastat20 LUPIN ",
+      { "entities": [[26, 46, "COMMON NAME"]] }
+    ],
+    [
+      "Image 360: Rosuvastatin Tablets IP 10 mg CAUmON:Nat to be soldo 2023 TAXES Turbovas-10 retailwithout the prescriptior  Regisiered Medical Prad Each film-coated toblet contains: Mfg.Lic.No.:M/600/2012 Dosage:As directed by Rosuvastatin Caicium ip the Physician Made in India by: equivalent to MICROLABS LAMITED Rosuvastatin 10 mg Store in a dry & dark place Mamoog.Namthang Road Colours:Red Oxide of Iron & at a temperature SouthSikkm-737132 not exceeding 30c RegdTrace Mark Titanium Dioxide IP Turbovas-10 Turbovas. Cararpet Rosuvastatin Tablets P 10 mg NNot to be s Turbovas-10 out the pre Each film-coate osage Rosuvastatin Calcium Physician equivalent to Store ina &dark place CRO LABS LIMTEC Rosuvastatin 10 mg Mamring.Namthang Colours: Red Oxide f ron & at a teoaaroture South Sikkim-737 1 not excesdg 30C. Titanium Dioxide Regd.Trade M Turbovas-10 Turbovas- Tefar ",
+      {
+        "entities": [
+          [11, 31, "COMMON NAME"],
+          [310, 328, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 361: Rosuvastatin Tablets IP 10 mg CAUmON:Nat to be soldo 2023 TAXES Turbovas-10 retailwithout the prescriptior  Regisiered Medical Prad Each film-coated toblet contains: Mfg.Lic.No.:M/600/2012 Dosage:As directed by Rosuvastatin Caicium ip the Physician Made in India by: equivalent to MICROLABS LAMITED Rosuvastatin 10 mg Store in a dry & dark place Mamoog.Namthang Road Colours:Red Oxide of Iron & at a temperature SouthSikkm-737132 not exceeding 30c RegdTrace Mark Titanium Dioxide IP Turbovas-10 Turbovas. Cararpet Rosuvastatin Tablets P 10 mg NNot to be s Turbovas-10 out the pre Each film-coate osage Rosuvastatin Calcium Physician equivalent to Store ina &dark place CRO LABS LIMTEC Rosuvastatin 10 mg Mamring.Namthang Colours: Red Oxide f ron & at a teoaaroture South Sikkim-737 1 not excesdg 30C. Titanium Dioxide Regd.Trade M Turbovas-10 Turbovas- Tefar ",
+      {
+        "entities": [
+          [11, 31, "COMMON NAME"],
+          [696, 714, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 362: T ach film coated tablet contains Mfg.Lic.N 0488 M.R.P/10 TARS. MFG.DEC.22 B.No.005032 Atorvastatin calcium USP Manufacturercin Nepal by: Equivalent to Atorvastatin 10 mg Vega Pharrnaseuticals Pvt Ltd vega Lalitpur-22 Color:Sunset Yellow & Titanium dioxid. Oungmati,Nepal Registere Toade Mark 03FV10/19 ATOPNASOPOROBLEDS HXP.N(V.24 -fa VASTATIN-18 10/.50 HTRETCT-9 Each film coatedtaolet contains: Atorvastatin calciom USP Mfg.Lic. 488 Manufa Nepal by: Equivaleni ",
+      { "entities": [[163, 181, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 363: T ach film coated tablet contains Mfg.Lic.N 0488 M.R.P/10 TARS. MFG.DEC.22 B.No.005032 Atorvastatin calcium USP Manufacturercin Nepal by: Equivalent to Atorvastatin 10 mg Vega Pharrnaseuticals Pvt Ltd vega Lalitpur-22 Color:Sunset Yellow & Titanium dioxid. Oungmati,Nepal Registere Toade Mark 03FV10/19 ATOPNASOPOROBLEDS HXP.N(V.24 -fa VASTATIN-18 10/.50 HTRETCT-9 Each film coatedtaolet contains: Atorvastatin calciom USP Mfg.Lic. 488 Manufa Nepal by: Equivaleni ",
+      { "entities": [[163, 181, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 364: vega Atorvastatin Tablets IP 10m6 VASTATIN-10 H-90 10Tabs.x15 Strips ",
+      { "entities": [[16, 36, "COMMON NAME"]] }
+    ],
+    [
+      "Image 365: vega Atorvastatin Tablets IP 10m6 VASTATIN-10 H-90 10Tabs.x15 Strips ",
+      { "entities": [[16, 36, "COMMON NAME"]] }
+    ],
+    [
+      "Image 366: ta temgeraturs.not.excesding.oo.e MACRA Turbovas2 Carar Turbovas-20 Rosuvastatin Tablets IP 20 mg CDATE 00 AN Turbovas-20 cacd Rosuvastatin ail without the equivalent to AA Registered Medic actitioner Rosuvastatin 20 Colours: Red Oxige of Iron Mfg.Lic.No.:04 13 1Q39 MLO5F-0364 Made in Ingaby &Titanium Dioxida MICRO LABS LIMITED UNIT-II Dosage:As direcied by the Physician R.S.No. Thiruvandar Koil Store in a dry &darkpia Puduch atatamoe notexce F0ORS Turbovas Turbovas-20 BBN' Rosuvastatin Tablets IP20 mg Turbovas-20 ",
+      {
+        "entities": [
+          [79, 99, "COMMON NAME"],
+          [212, 224, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 367: ta temgeraturs.not.excesding.oo.e MACRA Turbovas2 Carar Turbovas-20 Rosuvastatin Tablets IP 20 mg CDATE 00 AN Turbovas-20 cacd Rosuvastatin ail without the equivalent to AA Registered Medic actitioner Rosuvastatin 20 Colours: Red Oxige of Iron Mfg.Lic.No.:04 13 1Q39 MLO5F-0364 Made in Ingaby &Titanium Dioxida MICRO LABS LIMITED UNIT-II Dosage:As direcied by the Physician R.S.No. Thiruvandar Koil Store in a dry &darkpia Puduch atatamoe notexce F0ORS Turbovas Turbovas-20 BBN' Rosuvastatin Tablets IP20 mg Turbovas-20 ",
+      {
+        "entities": [
+          [79, 99, "COMMON NAME"],
+          [212, 224, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 368: MICRO Rosuvastatin Tablets IP 20 mg Turbovas-20 C-Ro 10x 15 Tablets MICRO LABS ",
+      { "entities": [[17, 37, "COMMON NAME"]] }
+    ],
+    [
+      "Image 369: MICRO Rosuvastatin Tablets IP 20 mg Turbovas-20 C-Ro 10x 15 Tablets MICRO LABS ",
+      { "entities": [[17, 37, "COMMON NAME"]] }
+    ],
+    [
+      "Image 370: eguivalent toClopidogrel 75 mg Coiours Iron Oxide Red & Titaniurn Dioxide Clopid Manufacturei-by M.R.P./15TABS.Rs165.00 B.No.069108 MFD. Quest Pharmaceuticals (P.) Ltd Chhata PiparaBaraNepal Clopid Clopid .OCT Clopid Clopid Clopid Clopid Clopidogrel Bisulphate Tablets IP a r.22EXPSEP.24 Clopid MfgLicNo.:4480 Clopid, Each film-coatedtablet contains. f Clopidogrel Bisulphate!P equivalent to-Clopidsgrei-75.mg Colours:Iron-Cxide Red & TitaniumDisxide Clopid Manufacturedby QuestPharinaceuticals (P.) Ltd ChhataPipara Bara, Nepal Clopid Clopid clopid Clopid Clopid ",
+      { "entities": [[249, 279, "COMMON NAME"]] }
+    ],
+    [
+      "Image 371: eguivalent toClopidogrel 75 mg Coiours Iron Oxide Red & Titaniurn Dioxide Clopid Manufacturei-by M.R.P./15TABS.Rs165.00 B.No.069108 MFD. Quest Pharmaceuticals (P.) Ltd Chhata PiparaBaraNepal Clopid Clopid .OCT Clopid Clopid Clopid Clopid Clopidogrel Bisulphate Tablets IP a r.22EXPSEP.24 Clopid MfgLicNo.:4480 Clopid, Each film-coatedtablet contains. f Clopidogrel Bisulphate!P equivalent to-Clopidsgrei-75.mg Colours:Iron-Cxide Red & TitaniumDisxide Clopid Manufacturedby QuestPharinaceuticals (P.) Ltd ChhataPipara Bara, Nepal Clopid Clopid clopid Clopid Clopid ",
+      { "entities": [[249, 279, "COMMON NAME"]] }
+    ],
+    [
+      "Image 372: 10x 15 Tablets Clopidogrel Bisulphate Tablets P Clopid ",
+      { "entities": [[26, 56, "COMMON NAME"]] }
+    ],
+    [
+      "Image 373: 10x 15 Tablets Clopidogrel Bisulphate Tablets P Clopid ",
+      { "entities": [[26, 56, "COMMON NAME"]] }
+    ],
+    [
+      "Image 374: 10x 15 Tablets Amlodipine & Losartan Potassium Tablets IP Mylod-L HISCs-UC ",
+      { "entities": [[26, 65, "COMMON NAME"]] }
+    ],
+    [
+      "Image 375: 10x 15 Tablets Amlodipine & Losartan Potassium Tablets IP Mylod-L HISCs-UC ",
+      { "entities": [[26, 65, "COMMON NAME"]] }
+    ],
+    [
+      "Image 376: FORNEPALEXPORTONL Mfg Lic.No.JK/01/08-09/155 Manufactured by Emcure 2250 PHARMACEUTICALS LTD Lane No.3.Phse-l,SDCO Ban-BrahmanJanmu-181133India Registered Srade Mark Owners S-Amlodipine Tablets P Asomex5 Composition Each uncoaJd tablet contains: S (-) Amlodipne Besylate IP equivalent to S(-)Amlodipine 5mg Excipients qs Colour Yellow Oxide of Iron Dosage:As directed by the Physician. Store in a cobl,dry & dark placo Keep out of reach ot children. SCHEOULE H PRESCRIPTION DRUO-CAUTION Not tobesoidby retall withou the prescriotion of a Registered MedicalPracutioner FOR NEPAL EXPORT ONLY Mtg LIc.No.JK/01/08-09/155 LOONSEASETTIS Manulactured by Emcure PHARNACEUTICALS LTD ane No.3.Pnase-l.SiDCO Bari-Brahmana.Jammu-181133.  Ragislered Trade Mark Owners S-Amlodipine Tablets IP Asomex5sht Goraposiuon ",
+      {
+        "entities": [
+          [184, 204, "COMMON NAME"],
+          [299, 317, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 377: FORNEPALEXPORTONL Mfg Lic.No.JK/01/08-09/155 Manufactured by Emcure 2250 PHARMACEUTICALS LTD Lane No.3.Phse-l,SDCO Ban-BrahmanJanmu-181133India Registered Srade Mark Owners S-Amlodipine Tablets P Asomex5 Composition Each uncoaJd tablet contains: S (-) Amlodipne Besylate IP equivalent to S(-)Amlodipine 5mg Excipients qs Colour Yellow Oxide of Iron Dosage:As directed by the Physician. Store in a cobl,dry & dark placo Keep out of reach ot children. SCHEOULE H PRESCRIPTION DRUO-CAUTION Not tobesoidby retall withou the prescriotion of a Registered MedicalPracutioner FOR NEPAL EXPORT ONLY Mtg LIc.No.JK/01/08-09/155 LOONSEASETTIS Manulactured by Emcure PHARNACEUTICALS LTD ane No.3.Pnase-l.SiDCO Bari-Brahmana.Jammu-181133.  Ragislered Trade Mark Owners S-Amlodipine Tablets IP Asomex5sht Goraposiuon ",
+      {
+        "entities": [
+          [184, 204, "COMMON NAME"],
+          [299, 317, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 378: 10x2x15 Tablets P S () Amlodipine Tablets IP Asomex-5 3TACR-4 Emcure ",
+      { "entities": [[34, 52, "COMMON NAME"]] }
+    ],
+    [
+      "Image 379: 10x2x15 Tablets P S () Amlodipine Tablets IP Asomex-5 3TACR-4 Emcure ",
+      { "entities": [[34, 52, "COMMON NAME"]] }
+    ],
+    [
+      "Image 380: t  Amlodipine Tablets IP fn- Amlodipin AMREST5 VNIRY AMRES 001771112091701 Mfg.Lic.No.:1771112091701 Each uncoated tablet contains EVEREST Each uncoateoriab pharmoceuticals Amlodipine Besylateip Amlodipine&esylo equivalent to Amlodipine 5 mg Manuraotund n Napalby equralont toAmk oatocaero Everest PharniaceuonlaPvt Lid rnent agoure argalg Narcha.Dbakwpun .STS AHIESTS AMREST'S RRT AMRESTS B.NO.AM2-04MFD.DEC.22EXP.NOV.24 M.R.PRs.50.00PER10 TABS ",
+      {
+        "entities": [
+          [14, 32, "COMMON NAME"],
+          [237, 252, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 381: t  Amlodipine Tablets IP fn- Amlodipin AMREST5 VNIRY AMRES 001771112091701 Mfg.Lic.No.:1771112091701 Each uncoated tablet contains EVEREST Each uncoateoriab pharmoceuticals Amlodipine Besylateip Amlodipine&esylo equivalent to Amlodipine 5 mg Manuraotund n Napalby equralont toAmk oatocaero Everest PharniaceuonlaPvt Lid rnent agoure argalg Narcha.Dbakwpun .STS AHIESTS AMREST'S RRT AMRESTS B.NO.AM2-04MFD.DEC.22EXP.NOV.24 M.R.PRs.50.00PER10 TABS ",
+      {
+        "entities": [
+          [14, 32, "COMMON NAME"],
+          [237, 252, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 382: rfff Mig.Lic.NO.1846 Maautacturedby NEPAL PMARMACEUTICALS LABORATORY-PRIVATE LIMITED LAPEN JeetpurBlrganlNopal ORegistereltrudeinark AMLOD'2.5 AMLOD 22 AmlodioineBesiatelabietsil AM 88804 LOD2.5 AMLOI Eacnpm.coarerabietbonan 0'Amlodipine 2.5 mg cojour:Titanium  e Mig.Lic.No. LAPEN sion ofNPL) Manu ",
+      { "entities": [[238, 255, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 383: rfff Mig.Lic.NO.1846 Maautacturedby NEPAL PMARMACEUTICALS LABORATORY-PRIVATE LIMITED LAPEN JeetpurBlrganlNopal ORegistereltrudeinark AMLOD'2.5 AMLOD 22 AmlodioineBesiatelabietsil AM 88804 LOD2.5 AMLOI Eacnpm.coarerabietbonan 0'Amlodipine 2.5 mg cojour:Titanium  e Mig.Lic.No. LAPEN sion ofNPL) Manu ",
+      { "entities": [[238, 255, "COMPOSITION NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 384: Amlodipine Besilate Tablts P 2.5 R AMLOD R.y TM LAPEN NP ",
+      { "entities": [[11, 37, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 385: Amlodipine Besilate Tablts P 2.5 R AMLOD R.y TM LAPEN NP ",
+      { "entities": [[11, 38, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 386: Amlodpine Bestate IP 401827603 r-Amlovas-5 equvaient to Amlodpine 5 mg Dosage. As directed by the Physician. STOREIN COOL AND DRY PLACE. MACLEODS (TM Manufactured in India by MACLEODSPHAEMACEUTICALS LTD KrasraNo.21.22.66,6768 Aho-Yangtam.Namchepung PORanipool.Sim-737135 LNos2015 Atanta ArcadeMarol Church Road Andheri E.Mumbai-400059  MACLEODS HARMACETCALS LTD Amlodipine Besilate Tablets P Amlovas5 Each uncoated tablet contains: PM01027603   A ps Amlodpine Bes'ate P equivalent to Amiodpine 5mg rd  y Dosage: As directed by the Pnysician. STORE IN COOL AND DRY PLACE. MACLEODS Manufactured in India by MACLEODS PHARHACEUTICALS LTD Knasra No.2122.66.67 &68 yerrara-4 Amlova Aho-YangtamNamchepung N582015 PORanipool.Sm-737135. ABanta ArcadeMarol Church Road AndneriE)Mumbai-400059 T MACLEODSPHARMACEUTICALS LTD. Amlodipine Besilate Tablets IP ",
+      { "entities": [[373, 400, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 387: Amlodpine Bestate IP 401827603 r-Amlovas-5 equvaient to Amlodpine 5 mg Dosage. As directed by the Physician. STOREIN COOL AND DRY PLACE. MACLEODS (TM Manufactured in India by MACLEODSPHAEMACEUTICALS LTD KrasraNo.21.22.66,6768 Aho-Yangtam.Namchepung PORanipool.Sim-737135 LNos2015 Atanta ArcadeMarol Church Road Andheri E.Mumbai-400059  MACLEODS HARMACETCALS LTD Amlodipine Besilate Tablets P Amlovas5 Each uncoated tablet contains: PM01027603   A ps Amlodpine Bes'ate P equivalent to Amiodpine 5mg rd  y Dosage: As directed by the Pnysician. STORE IN COOL AND DRY PLACE. MACLEODS Manufactured in India by MACLEODS PHARHACEUTICALS LTD Knasra No.2122.66.67 &68 yerrara-4 Amlova Aho-YangtamNamchepung N582015 PORanipool.Sm-737135. ABanta ArcadeMarol Church Road AndneriE)Mumbai-400059 T MACLEODSPHARMACEUTICALS LTD. Amlodipine Besilate Tablets IP ",
+      {
+        "entities": [
+          [373, 400, "COMMON NAME"],
+          [495, 508, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 388: Rabeprazole Sodium Tablets IP RAB-20 R-R0 ASTRAL 20x 15Tablets A Division of Magnu ",
+      { "entities": [[11, 37, "COMMON NAME"]] }
+    ],
+    [
+      "Image 389: EROFOZIN Each film coated tablet contains: Ferrous-Ascorbate equivalent to elemental Iron 100 mg Folic Acid BP 1.5mg FEROFOZIN Zinc Sulfate Monohydrate USP equivalent to elemental Zinc 22.5mg Colour:Ponceau 4R and Titanium Dioxide 9- FEROFOZIN 3 MfgLc.No:11283 /10 TABS.Rs.150 Manufactured by: en FEROFOZIN Deurali-Janta Pharmaceuticals Pvt.Ltd DnapasiKathmanduNepal Registered Trade Mark EXP 021FFT22 Ferrous Ascorbate.Folic Acid & FEROFOZIN Zinc Sulfate Tablets JAN25 Haematinic with Zinc FEROFOZIN R FEROFOZIN Each.tilm coated tablet contains Ferrous-Ascorbate equivalent to elemental Iron 100 mg FolicAcid BP 1.5 mg FEROFOZIN Zinc Sulfate Monohydrate USP equivalent to elemental Zinc 22.5 mg Colour Ponceau 4R and Titanium Dioxide FEROFOZ ",
+      { "entities": [[54, 118, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 390: For Nationa Heaitthcare SBZ SSZ tiamin B-Complex Fortified with Zinc Capsules SBZ Mfg.Lc.No4135 ng mo Nationa Healthcare Manufacturedby National Healthcare Pvt. E Chhatapipra,Bara Neoal Sez SRT Vitamin B-Complex Fortified with Zinc Capsules Mononitrase 10mg 10mg mg 1mg National 15 Healthcare aame Manufactured by: Nationat Heaithcare Pvt.Ltd sheys Chhatapipra,Bara, Nepal ",
+      { "entities": [[205, 252, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 391: 25x20Capsules Vitamin B-Complex Fortified with Zinc Capsules National Healthcare ",
+      { "entities": [[25, 71, "COMMON NAME"]] }
+    ],
+    [
+      "Image 392: Netrcnal hfomatids Apcrox Vaes UsAGE Asa Dietary Supplement oras directad by the dletician Eeoh serving abe conins F Composition Dese Unlt %otROA STORAGE.Store in cooj.dry anddark placebelow25'C.Protectfromdirect Sunlight Ferrous Ascorbate 100 mg 72.37 Folic Acid Dietary supplement.NOT FORMEDICiNAL USE. mcg 100,00 Zinc Sulphate mg 17.88 Excipients q.s. LIc.No.10720026000746 BEST BEFORE24MONTHS Energy 0.40 Kcal Marketed By: FROM DATE OF MANUFACTURE Carbohydrates 0.410 Protein 0.00 Manutactured By: a Fat XANON 0.00 0 ZEON BIOTECH PVT.LTD % of RDA calculated basec on tCMR guldaes.for men dolngmoeat Wo Healthcare PLDTNO1307/1308.PHASE-.G.LD.C RDA s not established Ahmedabad Gujarat India VATVAAhmedabad,Gujarat-382445.india Ferrous Ascorbate,Folic Acid &Zinc Sulphate Tablets Ferocare-XT OTER INGREDIENTS:StarchINS1405)Talc INS 553 (.Di Calcium Phosphate NS 341 i.Magneslum Stea(ate INS470MicrocrystallineCellulose INS460 Appropriate overages are addedto compensate loss on storage. Nutritional information Agprox Values) DSAGE:As a Dietary Supplement or as.directed by the dietician. Each serving tablet contains Composition RAGE:Store in cool.diy and darkplace balow25C.Protectfrom directSurlight Dasa\" Unit 1-60 Ferous Ascorbato 100 -FoeAcld tatary.SupplemenLNOTEORMEDICINAL-OSE 176 Zinc Sulphate ",
+      { "entities": [[740, 791, "COMMON NAME"]] }
+    ],
+    [
+      "Image 393: Ferrous Ascorbate Folic Acio Zinc Sulphate Tablets Ferocare-XT blets Dietary Supplement not for medi ",
+      { "entities": [[11, 61, "COMMON NAME"]] }
+    ],
+    [
+      "Image 394: Ferrous Ascorbate,Folic Acid & Zinc Sulphate Monohydrate Tablets S.Pe Bnterpristy FEELMIN 5X2X15 Tablets Dietary Supplement Not For Medicinal Use ",
+      { "entities": [[11, 75, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 395: sMgLIc.No.6991 9 Manufactured by fHETGTE. Tfa ARYA     PHARMALAB PVT.LTD l   Chhatapipara,Bara,Nepal Vitamin B-Complex with Zinc Vitazine EEX- Capsules Each capsule contains Thiamine Mononitrate 10 mg Riboflavine 10r0g MMPG Byndoxioe Hydrachlarlde P 3mg Vitazinc Follc Acid IP 1mg Cyanocobalamig IP 15 mcg Niacinamide IP 50mg Calcium Pantothenafe IP 12.5 mg fHCIGE Zinc Sulphate Monohydrate IP PON'E eq.to Elemental Zinc 22.5 mg Approved colours usedin capsule shells 946 Mfg.Lic.No6991 9 Manufactured.by HETS ARYA ",
+      { "entities": [[112, 140, "COMMON NAME"]] }
+    ],
+    [
+      "Image 396: 20 Ascorbic Acid Tablets IP CVIT ",
+      { "entities": [[14, 35, "COMMON NAME"]] }
+    ],
+    [
+      "Image 397: 446n f Mfg.Lic.No.1770425092559 Manutactured in Nepalby AMTECHMEDPVT.LTD Katahari-4.Morang.Nepal Ascorbic Acid Fablets IP  Each chewable tablet contains Ascorbic Acid 100mg Sodium Ascorbate eqv.to Ascorbic Acid 400 mg Colour:SunsetYellow 21s ",
+      {
+        "entities": [
+          [164, 184, "COMPOSITION NAME"],
+          [208, 228, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 399: RabeprazoleSodium Tablets IP RabeprazoleS0 RAB-20 RAB-20 Each enteric coated tablet contains HHE Each enteric coated tablet contains Rabeprazole Sodium IP20 mg f Rabeprazole SodiumIP20 mg Colours: Titanium Dioxide & Brilliant Blue  fasar Colours:Titanium Dioxide & Brilliant B Mfg.Lic.No.:9012 ASTRAL   magnus ADivision of Magnus Manufactured By Magnus Pharma Pvt.Ltd. Rampur Tokani Bara,Nepal B.No.CB23002MFG.MAR.2023EXP.AUG.2024 MR.P.Rs.180.00PER15TA8S ",
+      {
+        "entities": [
+          [11, 37, "COMMON NAME"],
+          [144, 170, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 400: 3 OMINIVIT MULTIVITAMIN CAPSULES Made in Nepal by OMNICA LABORATORIES PVT.I Bhaktapur,Kathmandu ",
+      { "entities": [[22, 43, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 405: 10x 15Capsules Haematinic Capsules R Softeron-Z ARISTO ",
+      { "entities": [[26, 45, "COMMON NAME"]] }
+    ],
+    [
+      "Image 407: Ferrous Ascorbate,Folic Acid  Zinc Sulphate Tablets XT R.B.TONE Each film coated tablet contains Ferrous Ascorbate I.P. equivalent to Elemental Iron 100mg Folic Acid I.P. 1500mcg Zinc Sulphate Monohydrate l.P 61.8mg equivalent to Elemental Zinc 22.5mg Colours:Ponceau 4R Lake and Titanium Dioxide I.P. Dosage :Adults 1 tablet daily or as directed by the Physician Storage:Store protected from moisture,at temperature not exceeding 30'C Rogistored Trademark ",
+      { "entities": [[11, 62, "COMMON NAME"]] }
+    ],
+    [
+      "Image 408: Sompraz20 SCHEDULS GCRIPTIONDRO enteric-coatednsblet contains CAUTION:No be sold by retall neprazoie MagnegLrn Trihydrate IP without the presctption of a Reglstere valent to Esomeprazole 20mg MedicalPracrnoee pients q.s urs:Ferric OxideRed USP-NF  Registered Trade Merk ThaniumiDioxidep gs As direcled by tne Physician M..M645/2014 ets shouid be swsllowed whole Manufacturodin India by not to be chewed or crushed sun pharma abdratories Itd e at temperature not exceeding 30C Plot No.107-108.Namli Block ectedtrom light and moisture P.O.Ranipool.at-Sikkim-737 135 Sompraz20 Sompraz20 mpraz20 EsomeprazoleTablets IP Sompraz20 SCHEDULE RPOESCRIPTION DRUC h enteric-coateo-tediet contains CAUTiON.Noerbe sold by retaill meprazole Magnosum Trihydrate IP without the pressptlon of a Register ivalent to Esomopr-zole 20 mg Medical Prac pients OR ",
+      { "entities": [[185, 202, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 409: ViiaminB USP 4.5mg 22 Vitamin B BP 5 mg Vitamin B. BP 2 mg Nicotinamide BP 45mg Cyanocobalamin (Vitamin B BP 6mcg Calcium Pantothenate BP 11 mg Follc Acid BP 1mg Mfg.Lic.No.:2235 Manufactured by - Deurali-Janta Pharmaceuticals Pyt.Ltd Dhapasi- Kathmandu.Nepal ORegistered Trade Mark FORTIPLEX- FORTIPLEX-X FORTIPLEX-X Multivitamin Capsules ",
+      { "entities": [[329, 351, "COMMON NAME"]] }
+    ],
+    [
+      "Image 410: R FORTIPLEX -m RWRT-TH Multivitamin Capsules 30Capsules x ",
+      { "entities": [[34, 55, "COMMON NAME"]] }
+    ],
+    [
+      "Image 411: Feeronnr CONTAINS PERMITTED NATURAL SYNTHETIC Ferony-FZ FOOD COLOUR(S) Appropriate overages added to compensate Soft Gel Copsules tor toss on storage. Dosage:As directed by the dietician Each soft gelatin capsule contains approx. Storage:Store below 25 C in a dry place %RDA Protect trom direct sunlight Ferrous Bisglycinate 100mg. 131 Usage:1 Capsule daily with breakfast Folic Acid 1mg AR Zinc Bisglycinate 2.0mg Keep out ot reach of children. 50.69 Excipients q.S Manufactured by Broad Injectables An ISO &GMP Certified Un) kerrrnrer Notitonal information: Piot No 51-52,ind.Area,Tahwal Approx.values per serving/capsule Dist. Una-174301(H.P) Total Energy 5.64Kcal Imported &MarKered by Carbohydrates 286gm Protein 278gm Fat 375.gm Saturated Fatty Acid 246gm NIEON LIFE Poly Unsaturated Fatty AcidC135om Mono Unsaturated Fatty Ac372 gm Trans Fatty Acid Araces Cholesterol 0om XIEONUSFEINTERNATIONAL ROARCNR Sinanangat Kachaande NRDA establshed Nepal e Ferrous Bisglycire Folic Acid & Znc Bisglycinate Sontgel Capsules CONTAINS PESMTTED NATURAL SYNTHETIS Ferony-FZ FOOO COLOUSER Appropnatxcs added to compens forlossoo 1310 heolas ",
+      { "entities": [[966, 1031, "COMMON NAME"]] }
+    ],
+    [
+      "Image 413: ARNAV Arorate overages of vitamins aded  compensate loss on storage SNTESPRISES Dosage Imported & Marketed By As directed by the Dietician ARNAV ENTERPRISES, StorageStore in a cool dry & dark place. Dietary Food Supplement Not For Miedicinal Use KATHMANDU,NEPAL IMMUNE-UP IMMUNE-UP IMMUNE-UP IMMUNE-UP Vitamin C&Zinc Chewable Tablets IMMUNE-UP BEST BEFORE 18 MONTHS FROM THE DATE OF MANUFACTURING Taalets fssai Lic No.:10817016000051 nonal informationApproximale vaves per.serving PecTabiel Mfg by:PURISTO PHARMA G Composition: Per Serving Tablet VPO-Bhadour.Near Bus Stand Each Chewable tablet containsapprox. RDA Yaue% Tehsil Madlauda,Panipat Haryana-132103 Vitamin C 1000mg 1112 Zinc 15mg 100 Excipients q.s. AE Colour:Sunset Yellow Recommended Daily allowances (RDA excess not established RDA of Nutrients as per guidelines of Indn counci of medical Research Appropriate overages of vitamins added to compensate loss on storage ARNAV ENTERPRISES Dosage: Imported & Marketed By As.directed by the Dietician StorageStore in a cool.drr & dark place ARNAV ENTERPRISES Dietary FoodSupplemenr Not For Medicina KATHMANDU,NEPAL IMMUNE-LP IMNLNEAIP IMUNE-UP IMUNE-UP ",
+      { "entities": [[313, 344, "COMMON NAME"]] }
+    ],
+    [
+      "Image 414: Ferrous Ascorbate,Folic Acid & Zinc Sulfate Tablets FEROFOZIN Haematinic with Zinc 10 Tablets x 10Blisters ",
+      { "entities": [[11, 63, "COMMON NAME"]] }
+    ],
+    [
+      "Image 415: Each film coated tablet contains Manutactured.by MycophenolateMofetinP500 mg IRTAS Colours:Ferric Qxide Red USP-NF INTAS Iron OxideBlack, Indigo Carmine PHARMACEUTICALS LTD. Aluminum Lake and Titanium Dioxide JP Samardung Road Excipients:Q.S Kabrey Block Dose :As directed by the Physician. Namthang Elaka, Store protected from light and moisture, at a temperature not exceeding 30C Sikkim-737132INDIA 92 125829406351 Keep out of reach of children. Rx Mycophenolate Mofeti DRUEACACNOR Tablets IP500 mg Notto bosoldse. Yetailwin the prescriptio ra Specialis Mycofit 500 Mfg.Lic.No.M/717/2016 Each film coated tablet contains: Manufacturedby: Mycophenolate Mofetil IP 500 mg INTAS Colours:Ferric Oxide Red USP-NF INTAS Iron Oxide Black, Indigo Carmine PHARMACEUTICALS LTD. Aluminum Lake and Titanium Dioxide IP Samardung Road, 500 Excipients:Q.S Kabrey Block, Dose :As directed by the Physician Namthang Elaka Store protected from light and moisture, Sikkim-7371321NDIA ",
+      { "entities": [[652, 683, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 416: 5x2x10Tablets METFORMIN HYDROCHLORIDE TABLETS IP 850MG R GLYCOMET-850 E-C40 USV ",
+      { "entities": [[25, 57, "COMMON NAME"]] }
+    ],
+    [
+      "Image 417: Lintor M 1000 LintorN7000 Lintor M 1000 Lintor M1000 Manufactured by Quest Pharmaceuticals (P.) Ltd. Chhata Pipara,Bara,Nepa Lintor M1000 Lintor M 1000 Lintor M 1000 Lintor M1000 Linagliptin & Metformin Hydrochlori Lintor M1000 foc ach fitm coated tablet contains MfgLic.No.17 nagliptin2.5mg Metformin Hydrochloride IP 1000 mg Colours:Erythrosine Lake& HHE Titanium Dioxide Hfa Lintor M 1000 Lintor M1000 Lintor M 1000 Lintor M 1000 Manufactured by Quest Pharmaceuticals (P.) Ltd. Chhata Pipara, Bara Nepa Lintor M100 M1000 Linte31000 Lintor M 1000 ",
+      { "entities": [[303, 337, "COMPOSITION NAME"]] }
+    ],
+    [
+      "Image 418: blets Linagliptin & Metformin Hydrochloride Tablets Lintor M 1000 fd  9OOO ",
+      { "entities": [[17, 62, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 419: Metformin Hydrochloride Extended Release Tablets IP GLYFALL-1G ER T54-9.5.3R 15 Tabs.x10 Strips ",
+      { "entities": [[11, 59, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 420: 10x10 Tablet Metformin Hydrochloride Sustained Release Tablets IP Metfor SR 1000 HEUT 3T 9000 ",
+      { "entities": [[24, 73, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 421: Metformin Hydrochloride Sustained Release & Linagliptin Tablets Lipta-M 500 -00 P ILAP 0 x 10's Blister Strips ",
+      { "entities": [[11, 74, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 422: Lipta-M 500 f esw an R- y00 fa Each uncoated bilayered-tablet contains: Linagliptin 2.5mg Metformin Hydrochlonde 500 mg Mfg.Lic.No.1740630045301 IP (nSustained ReleaseForm) Colour:Red Oxide of ron Lipta-M500 Rer-y Lipta-M 5o0 -y00 Lipta-M500 -yO0 SO6-N7ON LAPENADiyison of NPL) Manutaciaredby. NEPALPHARMACEUTICAI,S LABORATORYPVT.LTD. Jeelpur.BirganjNepal. a-M500 e- Lipta-M500 yo0 Lipta-M500 Aetformin Hydrochloride Sustained Release & Linagliptin Tablets Lipta-M 500 fff -09400 f uncoated bilayetegyablet contains lagliptn 2.5 fg.Lic.No034530 normn Hydre OR 500 ",
+      { "entities": [[101, 130, "COMPOSITION NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 423: Empagliflozin Tablets GLIFAZ-25 f0-R4 ",
+      { "entities": [[11, 32, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 424: Empagliflozin Tablets 822112006 Mfg.Lic GLIFAZ-10 TER 5 f34-80 Composition: Eacn film coated tablet contains Empagliflozin 10 mg Colour Yellow Oxide of Iron Manutactu Ltd. Magnus-P mara-23 RampurTok magnus Bara,Nepal fMNT-0 fT-90 GLIFAZ-10 f-90 GLIFAZ10 ",
+      {
+        "entities": [
+          [11, 32, "COMMON NAME"],
+          [120, 140, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 425: MPPLNATTO-OO Empagliflozin Tablets 750629075938 Mfg.Lic.No.17 GLIFAZ-25 f4-74 HHE Composition: Each film coated tablet contains: Hant:fafan Empagliflozin 25 mg fa-faaur ColourPearly white f Manufactured By: y a Pvt.Ltd Magnus PharmaP Bara,Nepal maqnus Rampur Tokani,Ba -25 -4GLFAZ-25-4GLFAZ-25 -4GLIFAZ-2 B.No.KZ23001 MFG.FEB.2023 EXP.JAN.2025 M.R.PRs.55000PER10TABS ",
+      {
+        "entities": [
+          [23, 45, "COMMON NAME"],
+          [151, 170, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 427: 10x30 T Rx Amlodipine Tablets IP 5 mg Amtas-5 JHCRA-4 INTAS ",
+      { "entities": [[22, 40, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 428: SAWNoNeNero vesoh bvretaf withol INTAS Baubea 708398 the presrrtlon ofa Hediaered Modics Practions Rx Amlodione Tablets P 5 mg TNTAS Amass Each uncoated tablet contains: AmlodipineBesylate IP equivalent to Amlodipine 5 mg Colour cindigocarmine Exciplenns QS DoseAs orectedbwthe Physician 85533333332 Store inadark & dry place. SCHEDUN HPRESCRRTION DRUG CAUTION Not to be solday retail withou the pre on of a Recistered Medica Rx Amlodisne TabletsP5 mg INTAS L Amtas-5 Eachuncoated tablet contains: Amlodipine Besylate P eqwvalent to Amlodipine 5 mg 1ISDI93 Colour:indigocarmine Excipients Q.S. Aq par Dose:As directed by thePhysician. Store in a dark & dry place 88 ",
+      {
+        "entities": [
+          [113, 130, "COMMON NAME"],
+          [217, 232, "COMPOSITION NAME"],
+          [440, 457, "COMPOSITION NAME"]
+        ]
+      }
+    ],
+    [
+      "Image 429: 5x10Tablets Telmisartan Tablets IP TIGATEL 20 ",
+      { "entities": [[23, 42, "COMMON NAME"]] }
+    ],
+    [
+      "Image 431: 10x10 Tablets Sodium Valproate Gastro-resistant Tablets IP Encorate300 ",
+      { "entities": [[25, 66, "COMMON NAME"]] }
+    ],
+    [
+      "Image 432: Store at room temperature Plot No.107-108.Nam Block ierrp protected from light and moisture P.0.Ranipool.East-Sikkim-737135 Levipil 250 Levipil 250 Levipil 250 Levetiracetam TabletsIP 90b9 Levipil250 CHEDULEHPRESCRIP DRUG-CAUTIONNOtO.be Each film coated tablet contains 250 mg soldbyretail without the Levetracetam IP PEE22PPP3D escoptonota.Neuplogis Excipents Q.S. ColocrsFenic Oxide Reg USP-NF M.LM/645/2014 Bgant Bue FCF Tajum Dioxide P MaacledncaDy DosageAs drecied by suRerarma lavaratqresio Neuroiogist. 107108N e at room temsaaue lected from lig Cmoisture anipoo.Easi-Sy135. vipil 250 Levipil Levipieo50 acetamrablasyP OVA 490 81250 ",
+      { "entities": [[171, 192, "COMMON NAME"]] }
+    ],
+    [
+      "Image 433: R 1010 Tablets Levetiracetam TabletsIP Levipil 250 ",
+      { "entities": [[26, 47, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 434: 10x 15 Tablets Ursodeoxycholic Acid Tablets IP Ursocol R 300 ",
+      { "entities": [[26, 54, "COMMON NAME"]] }
+    ],
+    ["", { "entities": [] }],
+    [
+      "Image 435: erbonate 00mg Registered Trade Mark OosaeAs directed by the Physician a.s M.L.374/DR/Mfg/2013 PEEEEEE22 e arom lemperature Manufactured in india by otected from light and moisture sun pharma laboratories itd sbiet should be swallowed whole Vill Kokjhar. Mirza Palashbari Road and not to be chewed or crushed P.OPalashbariDistKamrupAssam-781128 LITHOSUNSR LITHOSUNSR LITHOSUNSR LITHOSUNSR Each uncoated prolonged release etail withoutthe presaripuon ot tablet contains dicalPractitioner. thium Carbonate IP 400.mg Sxclpients Registered Trade Mark q.s. DosageAs directed by tie Pnysician M.L374/OR/Mfg/2013 PEEPPPP12 Store atrcom temperature Manufactured in India by rotected.from light and moisture sun pharma laboratoriesltd t shoulg bo swallowed whole Vill Kokhar,Mirza PalashbarkRoad d not to be chewed or crushed. P.O.PalashbariDistKamrupAssam781128 LITHOSUNSR LITHOSUNSR LITHOSUNSR Lithium Carbonate Prolonged Release Tablets IP LITHOSUNSR TONDP CAUTION cach uncoated prolongedrelease Not to ber Od by retail without the echption ot tabietcontains: Regist MedicalPractitionee Jhiuruarbonate IP 400mg Registered Trade Mark Excirionte 9.8 M.L374/DR/Mfg/2013 PESPPP12 Josage s directed by the Physician Stere at room temperature Manutactursdnindia by: cted from light and msre sun pharma laboratories Itd et should be swallowra-whole Vill Kokjha Mirza Palashbari Roag not to be chewsd or zorshed P.O.Palabari.DistKamrupAssam781128 THOSUNSR LITHOSUNSSR LITHOSUNSR thium Caroonate Prolonged Release Tablets IP RTEOSUNPSK ",
+      { "entities": [[897, 940, "COMMON NAME"]] }
+    ],
+    [
+      "Image 436: NIMS\" NIMS- NIMS NIMESULIDE TABLETS NIMS Fxcn untsated tabe contains Wresuideep s00mg TrtyMaryaecsered eepalt Asian Prarmaceuticals Pvt.Ltd Omsatrysp/.Rupandehi NIMS NIMS NIMS ",
+      { "entities": [[28, 46, "COMMON NAME"]] }
+    ]
+  ]
+}

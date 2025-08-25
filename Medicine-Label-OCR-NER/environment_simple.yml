@@ -1,0 +1,36 @@
+name: medsys
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.2
+  - pip
+  - numpy
+  - pillow
+  - matplotlib
+  - pandas
+  - scipy
+  - scikit-image
+  - requests
+  - pyyaml
+  - lxml
+  - beautifulsoup4
+  - flask
+  - jinja2
+  - click
+  - pip:
+      - paddlepaddle
+      - paddleocr
+      - pymupdf>=1.23.0
+      - spacy>=3.7.0
+      - python-docx
+      - pdf2docx
+      - openpyxl
+      - mysql-connector-python
+      - opencv-python==4.6.0.66
+      - opencv-contrib-python==4.6.0.66
+      - imgaug
+      - protobuf
+      - termcolor
+      - tqdm
+      - visualdl
