@@ -61,8 +61,8 @@ To run the notebooks locally, follow these steps:
    2. Open MySQL with `--local-infile` enabled:
 
       ```bash
-      mysql --local-infile=1 -u root -p
-      ```
+      
+      ```mysql --local-infile=1 -u root -p
 
    3. Create Database and Load CSV file:
 
