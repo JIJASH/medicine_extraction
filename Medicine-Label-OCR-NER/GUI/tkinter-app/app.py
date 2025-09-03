@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import customtkinter as ctk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, ttk
 from PIL import Image, ImageTk, ImageDraw, ImageFont
 import cv2
 import numpy as np
@@ -15,6 +15,11 @@ import re
 import threading
 import json
 from pathlib import Path
+import time
+import datetime
+import webbrowser
+from io import BytesIO
+import base64
 
 ctk.set_appearance_mode("light")  
 ctk.set_default_color_theme("blue")
@@ -155,7 +160,7 @@ def custom_tfidf_cosine_similarity(search_term, document_list):
     print(f"📄 Processing {len(all_documents)} documents (1 query + {len(document_list)} targets)")
     
     # Step 2: Create n-grams for all documents
-    print("🔤 Creating character n-grams...")
+    print(" Creating character n-grams...")
     documents_ngrams = []
     for i, doc in enumerate(all_documents):
         ngrams = create_ngrams(doc, n_min=2, n_max=4)
@@ -211,6 +216,23 @@ class MedicalInfoApp:
         self.db_complete = False
         self.ocr_text = ""
         
+        # Progress tracking
+        self.current_step = "Ready"
+        self.total_steps = 5
+        self.completed_steps = 0
+        self.processing_start_time = None
+        
+        # Configuration settings
+        self.settings = {
+            'ocr_confidence_threshold': 0.5,
+            'similarity_threshold': 0.37,
+            'ngram_min': 2,
+            'ngram_max': 4,
+            'image_preprocessing': True,
+            'auto_analysis': True,
+            'theme_mode': 'light'
+        }
+        
         # Load NER model
         try:
             self.nlp_ner = spacy.load("../model-best")
@@ -220,22 +242,28 @@ class MedicalInfoApp:
         
         # Main window setup
         self.window = ctk.CTk()
-        self.window.title("🏥 Medical Info Provider")
-        self.window.geometry("1600x1000")
-        self.window.minsize(1400, 900)
+        self.window.title("🏥 Medical Info Provider v2.1")
+        self.window.geometry("1700x1100")
+        self.window.minsize(1500, 950)
         
         # Center window on screen
         self.center_window()
         
-        # Configure fonts
-        self.title_font = ctk.CTkFont(family="Inter", size=24, weight="bold")
+        # Configure enhanced fonts and colors
+        self.title_font = ctk.CTkFont(family="Inter", size=26, weight="bold")
         self.heading_font = ctk.CTkFont(family="Inter", size=18, weight="bold")
+        self.subheading_font = ctk.CTkFont(family="Inter", size=16, weight="bold")
         self.normal_font = ctk.CTkFont(family="Inter", size=14)
         self.small_font = ctk.CTkFont(family="Inter", size=12)
+        self.tiny_font = ctk.CTkFont(family="Inter", size=10)
         
-        # Consistent button color
-        self.button_color = "#2563eb"
-        self.button_hover = "#1d4ed8"
+        # Enhanced color scheme
+        self.primary_color = "#2563eb"
+        self.primary_hover = "#1d4ed8"
+        self.success_color = "#16a34a"
+        self.warning_color = "#ea580c"
+        self.error_color = "#dc2626"
+        self.accent_color = "#7c3aed"
         
         self.setup_ui()
         
@@ -244,9 +272,9 @@ class MedicalInfoApp:
         self.window.update_idletasks()
         screen_width = self.window.winfo_screenwidth()
         screen_height = self.window.winfo_screenheight()
-        x = (screen_width - 1600) // 2
-        y = (screen_height - 1000) // 2
-        self.window.geometry(f"1600x1000+{x}+{y}")
+        x = (screen_width - 1700) // 2
+        y = (screen_height - 1100) // 2
+        self.window.geometry(f"1700x1100+{x}+{y}")
     
     def setup_ui(self):
         """Setup the main user interface"""
@@ -264,46 +292,97 @@ class MedicalInfoApp:
         self.create_status_bar()
     
     def create_header(self):
-       
-        header_frame = ctk.CTkFrame(self.window, height=80, corner_radius=0)
+        """Create enhanced header with better styling and additional controls"""
+        header_frame = ctk.CTkFrame(self.window, height=90, corner_radius=0)
         header_frame.grid(row=0, column=0, sticky="ew", padx=0, pady=0)
         header_frame.grid_columnconfigure(1, weight=1)
         
-        # App title
+        # App title section
         title_frame = ctk.CTkFrame(header_frame, fg_color="transparent")
-        title_frame.grid(row=0, column=0, sticky="w", padx=30, pady=20)
+        title_frame.grid(row=0, column=0, sticky="w", padx=30, pady=25)
         
+        # Main title with enhanced styling
         title_label = ctk.CTkLabel(
             title_frame,
             text="🏥 Medical Info Provider",
             font=self.title_font,
-            text_color="#2563eb"
+            text_color=self.primary_color
         )
         title_label.pack(side="left")
         
+        # Version badge
+        version_label = ctk.CTkLabel(
+            title_frame,
+            text="v2.1",
+            font=self.tiny_font,
+            text_color="white",
+            fg_color=self.accent_color,
+            corner_radius=8,
+            width=35,
+            height=20
+        )
+        version_label.pack(side="left", padx=(10, 20))
+        
+        # Subtitle with enhanced description
         subtitle_label = ctk.CTkLabel(
             title_frame,
-            text="AI-Powered Medicine Analysis System",
+            text="Advanced AI-Powered Medicine Analysis & Recognition System",
             font=self.small_font,
             text_color="#64748b"
         )
-        subtitle_label.pack(side="left", padx=(20, 0))
+        subtitle_label.pack(side="left", padx=(0, 0))
         
-        # Header controls
-        controls_frame = ctk.CTkFrame(header_frame, fg_color="transparent")
-        controls_frame.grid(row=0, column=2, sticky="e", padx=30, pady=20)
-        
-        info_btn = ctk.CTkButton(
-            controls_frame,
-            text="ℹ️ Info",
-            width=80,
-            height=40,
-            font=self.normal_font,
-            fg_color=self.button_color,
-            hover_color=self.button_hover,
-            command=self.show_info
+        # Status indicator
+        self.status_indicator = ctk.CTkLabel(
+            title_frame,
+            text="● Ready",
+            font=self.small_font,
+            text_color=self.success_color
         )
-        info_btn.pack(side="right", padx=5)
+        self.status_indicator.pack(side="left", padx=(20, 0))
+        
+        # Enhanced controls section
+        controls_frame = ctk.CTkFrame(header_frame, fg_color="transparent")
+        controls_frame.grid(row=0, column=2, sticky="e", padx=30, pady=25)
+        
+        # Settings button
+        settings_btn = ctk.CTkButton(
+            controls_frame,
+            text="⚙️ Settings",
+            width=90,
+            height=35,
+            font=self.normal_font,
+            fg_color=self.accent_color,
+            hover_color="#6d28d9",
+            command=self.show_settings
+        )
+        settings_btn.pack(side="right", padx=5)
+        
+        # Help button
+        help_btn = ctk.CTkButton(
+            controls_frame,
+            text="❓ Help",
+            width=80,
+            height=35,
+            font=self.normal_font,
+            fg_color=self.warning_color,
+            hover_color="#ea580c",
+            command=self.show_help
+        )
+        help_btn.pack(side="right", padx=5)
+        
+        # About button
+        about_btn = ctk.CTkButton(
+            controls_frame,
+            text="ℹ️ About",
+            width=80,
+            height=35,
+            font=self.normal_font,
+            fg_color=self.primary_color,
+            hover_color=self.primary_hover,
+            command=self.show_about
+        )
+        about_btn.pack(side="right", padx=5)
     
     def create_main_content(self):
         
@@ -319,52 +398,78 @@ class MedicalInfoApp:
         self.create_analysis_section(content_frame)
     
     def create_upload_section(self, parent):
+        """Create enhanced upload section with drag-and-drop and multiple options"""
+        upload_frame = ctk.CTkFrame(parent, height=140)
+        upload_frame.grid(row=0, column=0, sticky="ew", padx=25, pady=25)
+        upload_frame.grid_columnconfigure((0, 1, 2), weight=1)
         
-        upload_frame = ctk.CTkFrame(parent, height=120)
-        upload_frame.grid(row=0, column=0, sticky="ew", padx=20, pady=20)
-        upload_frame.grid_columnconfigure((0, 1), weight=1)
+        # Section header
+        header_frame = ctk.CTkFrame(upload_frame, fg_color="transparent")
+        header_frame.grid(row=0, column=0, columnspan=3, sticky="ew", pady=(25, 15))
         
-        # Section title
         upload_title = ctk.CTkLabel(
-            upload_frame,
+            header_frame,
             text="📁 Upload Medicine Image",
             font=self.heading_font,
             text_color="#1e293b"
         )
-        upload_title.grid(row=0, column=0, columnspan=2, pady=(20, 20))
+        upload_title.pack(side="left")
         
+        # File format info
+        format_info = ctk.CTkLabel(
+            header_frame,
+            text="Supported: JPEG, PNG, BMP, TIFF (Max: 10MB)",
+            font=self.tiny_font,
+            text_color="#64748b"
+        )
+        format_info.pack(side="right")
+        
+        # Description
         subtitle = ctk.CTkLabel(
             upload_frame,
-            text="Choose an image file or use live camera feed",
+            text="Choose an image file, use live camera feed, or drag and drop an image",
             font=self.small_font,
             text_color="#64748b"
         )
-        subtitle.grid(row=1, column=0, columnspan=2, pady=(0, 20))
+        subtitle.grid(row=1, column=0, columnspan=3, pady=(0, 25))
         
-        # Upload buttons
+        # Upload buttons with enhanced styling
         self.upload_btn = ctk.CTkButton(
             upload_frame,
-            text="📤 Upload File",
+            text="📤 Browse Files",
             font=self.normal_font,
-            height=50,
-            width=200,
-            fg_color=self.button_color,
-            hover_color=self.button_hover,
+            height=55,
+            width=220,
+            fg_color=self.primary_color,
+            hover_color=self.primary_hover,
             command=lambda: self.process_image("upload")
         )
-        self.upload_btn.grid(row=2, column=0, padx=20, pady=(0, 20))
+        self.upload_btn.grid(row=2, column=0, padx=15, pady=(0, 25))
         
         self.livefeed_btn = ctk.CTkButton(
             upload_frame,
-            text="📹 Live Feed",
+            text="📹 Live Camera",
             font=self.normal_font,
-            height=50,
-            width=200,
-            fg_color=self.button_color,
-            hover_color=self.button_hover,
+            height=55,
+            width=220,
+            fg_color=self.success_color,
+            hover_color="#15803d",
             command=self.show_live_feed
         )
-        self.livefeed_btn.grid(row=2, column=1, padx=20, pady=(0, 20))
+        self.livefeed_btn.grid(row=2, column=1, padx=15, pady=(0, 25))
+        
+        # Sample images button
+        self.sample_btn = ctk.CTkButton(
+            upload_frame,
+            text="🖼️ Sample Images",
+            font=self.normal_font,
+            height=55,
+            width=220,
+            fg_color=self.accent_color,
+            hover_color="#6d28d9",
+            command=self.load_sample_image
+        )
+        self.sample_btn.grid(row=2, column=2, padx=15, pady=(0, 25))
     
     def create_analysis_section(self, parent):
        
